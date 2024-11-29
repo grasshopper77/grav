@@ -150,12 +150,3 @@ body {
 html, body, div { display: grid }
 
 html { min-height: 100% }
-
-body {
-	background: /* just to illustrate card transparency */
-		url(https://images.unsplash.com/photo-1729824346255-52a8f898fe84?w=1400) 
-			50%/ cover #212121;
-	/* darken image (multiplying its RGB channels with 
-	 * those of background-color) for better text contrast */
-	background-blend-mode: multiply
-}
