@@ -146,7 +146,5 @@ body {
 @keyframes a { to { --a: 1turn } }
 
 
-/* prettifying and layout stuff, not needed for card glow part */
-html, body, div { display: grid }
 
-html { min-height: 100% }
+
