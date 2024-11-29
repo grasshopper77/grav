@@ -1,50 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andy's 3D Models</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-        }
-        .gallery img {
-            width: 100%;
-            height: auto;
-            max-width: 200px;
-            border: 2px solid #ccc;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            transition: transform 0.2s;
-        }
-        .gallery img:hover {
-            transform: scale(1.05);
-        }
-        @media (min-width: 600px) {
-            .gallery img {
-                max-width: 150px;
-            }
-        }
-        @media (min-width: 900px) {
-            .gallery img {
-                max-width: 200px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <h1>3D Models</h1>
-    <div class="gallery">
-        <a href="/button/index.html"><img src="/button/poster.webp" alt="Button"></a>
-        <a href="/spacer/index.html"><img src="/spacer/poster.webp" alt="Spacer"></a>
-        <a href="/Vase/index.html"><img src="/Vase/poster.webp" alt="Vase"></a>
-        <a href="/thimble/index.html"><img src="/thimble/poster.webp" alt="Thimble"></a>
-    </div>
-</body>
-</html>
+<ul>
+	<li>
+		<a href="/Vase/index.html">
+			<figure>
+				<img src='/button/poster.webp?crop=entropy&cs=tinysrgb&fit=max&ixlib=rb-1.2.1&q=80&w=400' alt='Dan Chapple Raku Vase'>
+				<figcaption>Dan Chapple Raku Vase</figcaption>
+			</figure>
+		</a>
+	</li>
+	<li>
+		<a href="/thimble/index.html">
+			<figure>
+				<img src='/thimble/poster.webp?crop=entropy&cs=tinysrgb&fit=max&ixlib=rb-1.2.1&q=80&w=400' alt='Medieval Thimble'>
+				<figcaption>Medieval Thimble></figcaption>
+			</figure>
+		</a>
+	</li>
+	<li>
+		<a href="/spacer/index.html">
+			<figure>
+				<img src='/spacer/poster.webp?crop=entropy&cs=tinysrgb&fit=max&ixlib=rb-1.2.1&q=80&w=400' alt='Buckle Spacer'>
+				<figcaption>Buckle Spacer</figcaption>
+			</figure>
+		</a>
+	</li>
+	<li>
+		<a href="/button/index.html">
+			<figure>
+				<img src='/button/poster.webp?crop=entropy&cs=tinysrgb&fit=max&ixlib=rb-1.2.1&q=80&w=400' alt='Vintage Firebrigade Button'>
+				<figcaption>Vintage Firebrigade Button</figcaption>
+			</figure>
+		</a>
+	</li>
+	
+</ul>
